@@ -10,13 +10,12 @@ function Navigation() {
       <div className='d-flex ml-auto mr-auto'>
         <Navbar.Brand href='#home'>
           <img
-            src={require('../images/logo.png')}
+            src={require('../images/logo-name.png')}
             alt='monitor-logo'
-            width='50'
-            height='40'
+            width='100'
+            height='60'
             className='d-inline-block align-top'
           />
-          Monitor
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
@@ -34,6 +33,7 @@ function Navigation() {
               <NavDropdown.Item href='#action/1.3'>
                 Oraganisation Management
               </NavDropdown.Item>
+              <NavDropdown.Item href='#action/1.3'>Analytics</NavDropdown.Item>
             </NavDropdown>
             {/*Resources*/}
             <NavDropdown title='Resources' id='solutions-nav'>
