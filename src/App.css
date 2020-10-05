@@ -101,3 +101,22 @@
     rgba(244, 196, 49, 1) 100%
   );
 }
+
+.pic {
+  border-radius: 50%;
+  background-color: #cccccc;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.6);
+}
+
+.pic-wrap {
+  width: 7em;
+  height: 7em;
+}
+
+.wrap {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.6);
+}

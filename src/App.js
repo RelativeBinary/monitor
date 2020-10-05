@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navigation from './components/Navigation';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 
@@ -16,41 +14,18 @@ function App() {
         crossorigin='anonymous'
       />
       <link href='./App.css' rel='stylesheet' type='text/css' />
-      <Navbar bg='light' expand='lg'>
-        <div className='d-flex ml-auto mr-auto'>
-          <Navbar.Brand href='#home'>Monitor</Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='ml-4'>
-              <Nav.Link href='#home'>Solutions</Nav.Link>
-              <Nav.Link href='#link'>Resources</Nav.Link>
-              <NavDropdown title='About' id='basic-nav-dropdown'>
-                <NavDropdown.Item href='#action/3.1'>Action</NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.2'>
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.3'>
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href='#action/3.4'>
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Navbar.Collapse>
-        </div>
-      </Navbar>
+      <Navigation />
       {/*Section*/}
       <div className='section blue-gradient text-light'>
         <Container>
           <div className='grid-1-parent'>
             <div className='grid-1-child-1'>
-              <h1>The frontline digital workplace</h1>
+              <h1>The on-site digital workplace</h1>
               <h4>
-                The platform industry leaders choose to unleash the full
-                potential of their non-desk workforces.
-                <h4>Built for the complexities of your business.</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                sapiente, beatae at voluptas eaque dicta delectus fugiat aut
+                facere officiis?
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
               </h4>
             </div>
 
@@ -66,12 +41,11 @@ function App() {
         <h1>Millions in cost savings</h1>
         <h1>Rapid payback</h1>
         <div>
-          WorkJam commissioned Forrester Consulting to conduct a Total Economic
-          Impact™ (TEI) study and objectively examine the potential ROI that
-          organizations may realize by deploying its WorkJam’s Digital
-          Workplace. The study provides readers and prospects with a framework
-          to evaluate the potential financial impact of WorkJam’s Digital
-          Workplace on their organizations.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+          quaerat dolor deleniti, laboriosam labore quam suscipit vitae deserunt
+          impedit cupiditate ipsum minima maxime hic eveniet sint porro nulla
+          tempore odio soluta officia! Totam laudantium sequi adipisci at,
+          tenetur maiores iure.
         </div>
       </Container>
       {/*Section*/}
@@ -79,14 +53,14 @@ function App() {
         <Container>
           <div className='grid-1-parent'>
             <div className='grid-1-child-1'>
-              <h1>The frontline digital workplace</h1>
+              <h1>The on-site digital workplace</h1>
               <h4>
-                The platform industry leaders choose to unleash the full
-                potential of their non-desk workforces.
-                <h4>Built for the complexities of your business.</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                sapiente, beatae at voluptas eaque dicta delectus fugiat aut
+                facere officiis?
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
               </h4>
             </div>
-
             <div className='grid-1-child-2 phone-image-container'>
               <img src={require('./images/iphone-x.png')} />
             </div>
@@ -98,11 +72,12 @@ function App() {
         <Container>
           <div className='grid-1-parent'>
             <div className='grid-1-child-1'>
-              <h1>The frontline digital workplace</h1>
+              <h1>The on-site digital workplace</h1>
               <h4>
-                The platform industry leaders choose to unleash the full
-                potential of their non-desk workforces.
-                <h4>Built for the complexities of your business.</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                sapiente, beatae at voluptas eaque dicta delectus fugiat aut
+                facere officiis?
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
               </h4>
             </div>
 
@@ -118,19 +93,18 @@ function App() {
         <h1>Millions in cost savings</h1>
         <h1>Rapid payback</h1>
         <div>
-          WorkJam commissioned Forrester Consulting to conduct a Total Economic
-          Impact™ (TEI) study and objectively examine the potential ROI that
-          organizations may realize by deploying its WorkJam’s Digital
-          Workplace. The study provides readers and prospects with a framework
-          to evaluate the potential financial impact of WorkJam’s Digital
-          Workplace on their organizations.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+          quaerat dolor deleniti, laboriosam labore quam suscipit vitae deserunt
+          impedit cupiditate ipsum minima maxime hic eveniet sint porro nulla
+          tempore odio soluta officia! Totam laudantium sequi adipisci at,
+          tenetur maiores iure.
         </div>
       </Container>
       {/*Cards*/}
       <div className='section washed-red-yellow-gradient text-light'>
         <div className='grid-2-parent'>
           <div className='grid-2-child-1'>
-            <h1>Why do enterprises choose WorkJam?</h1>
+            <h1>Why do enterprises choose Monitor?</h1>
             <h4>
               To simplify and optimize the communication and management of their
               hourly workforces with modern technology integrated with their
@@ -138,50 +112,50 @@ function App() {
             </h4>
           </div>
           <div className='grid-2-child-2 text-dark bg-light card-style'>
-            <h4>Employee self-service</h4>
+            <h4>Lorem, ipsum.</h4>
             <div>
-              Optimize labor and employee engagement by reducing manager
-              workloads and giving employees the tools to easily manage
-              availability, time off, schedule changes, swaps, filling open
-              shifts and more.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laudantium, deleniti at sit reprehenderit, animi magnam doloremque
+              consequatur repellat iure blanditiis maxime reiciendis eveniet eum
+              aspernatur. Quos voluptatum beatae quod quis.
             </div>
           </div>
           <div className='grid-2-child-3 text-dark bg-light card-style'>
-            <h4>Armed with knowledge</h4>
+            <h4>Lorem, ipsum dolor.</h4>
             <div>
-              Empower associates to be more knowledgeable and connected to offer
-              superior customer service and become effective brand ambassadors.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              vel dolorem magni, cupiditate est dolores.
             </div>
           </div>
           <div className='grid-2-child-4 text-dark bg-light card-style'>
-            <h4>Connect in real time</h4>
+            <h4>Lorem ipsum dolor sit.</h4>
             <div>
-              Break down walls and open the channels of communication between
-              head office, managers and the frontline workforce. Keep all
-              communication within your organization and off unsecure public
-              messaging and social media platforms like WhatsApp and Facebook.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Assumenda, unde quas. Dolorum cum nemo, tempore dignissimos,
+              voluptates soluta ipsam, ex numquam laborum dolores saepe.
+              Dignissimos iure rem delectus est sunt?
             </div>
           </div>
           <div className='grid-2-child-5 text-dark bg-light card-style'>
-            <h4>Inspire shining stars</h4>
+            <h4>Lorem, ipsum dolor.</h4>
             <div>
-              Survey, reward and share feedback with your workforce. Recognize
-              and get your stars to shine.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              libero tempore alias!
             </div>
           </div>
           <div className='grid-2-child-6 text-dark bg-light card-style'>
-            <h4>Unlock productivity</h4>
+            <h4>Lorem, ipsum.</h4>
             <div>
-              Improve productivity through better task execution, higher
-              retention, better labor efficiency and lower costs.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+              vero praesentium, cum reiciendis dolorem nisi.
             </div>
           </div>
           <div className='grid-2-child-7 text-dark bg-light card-style'>
-            <h4>Total workforce engagement</h4>
+            <h4>Lorem, ipsum dolor.</h4>
             <div>
-              Improve employee experience through improved flexibility, choice
-              and better communication. Engage your workforce to deliver the
-              ultimate Customer Experience.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              repellat provident, corporis id soluta dignissimos consectetur
+              reiciendis debitis veniam sapiente?
             </div>
           </div>
         </div>
@@ -189,38 +163,22 @@ function App() {
       {/*Meet The Team*/}
       <div className='section'>
         <Container>
-          <hr class='pb-4' />
-          <div className='pb-4'>
-            {/*Team Member */}
-            <div className='col-xl-3 col-sm-6'>
-              <div className='team-card-style-1 mx-auto'>
-                <div className='team-card-inner'>
-                  <div className='team-thumb'>
-                    <img
-                      src={require('./images/dio.png')}
-                      alt='Team Member Picture'
-                    />
-                  </div>
-                  <div className='team-social-bar text-center'>
-                    <a href='#' className='social-btn sb-style-4 sb-twitter'>
-                      <i className='socicon-twitter'></i>
-                    </a>
-                    <a class='social-btn sb-style-4 sb-stackoverflow' href='#'>
-                      <i class='socicon-stackoverflow'></i>
-                    </a>
-                    <a class='social-btn sb-style-4 sb-skype' href='#'>
-                      <i class='socicon-skype'></i>
-                    </a>
-                  </div>
-                  <a class='team-contact-link' href='tel:+19871625346'>
-                    <i class='fe-icon-phone'></i>&nbsp;+1 (987) 162 53 46
-                  </a>
-                  <a class='team-contact-link' href='mailto:info@example.com'>
-                    <i class='fe-icon-mail'></i>&nbsp;info@example.com
-                  </a>
-                </div>
-                <span className='team-position'>Lead Programmer</span>
-                <h4 className='team-name'>William Smith</h4>
+          <h1>Meet The Team</h1>
+          <hr className='pb-3' />
+          {/*Team Member Card*/}
+          <div class='p-4 wrap'>
+            <div class='d-flex flex-row'>
+              <div class='pic-wrap'>
+                <img src={require('./images/wut.png')} alt='pic' class='pic' />
+              </div>
+              <div class='d-flex flex-column pl-4'>
+                <h1>John Smith</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos totam quas temporibus! Nesciunt fugiat recusandae
+                  deleniti qui velit. Perspiciatis sunt debitis in numquam eos
+                  ipsum corrupti? Sint beatae minima dolore.
+                </p>
               </div>
             </div>
           </div>
