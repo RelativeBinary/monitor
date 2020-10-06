@@ -18,9 +18,15 @@ function App() {
       {/*Section*/}
       <div className='section blue-gradient text-light'>
         <Container>
-          <div className='grid-1-parent'>
-            <div className='grid-1-child-1'>
+          <div className='row'>
+            <div className='col-lg-6'>
               <h1>The on-site digital workplace</h1>
+              <h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                sapiente, beatae at voluptas eaque dicta delectus fugiat aut
+                facere officiis?
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
+              </h4>
               <h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
                 sapiente, beatae at voluptas eaque dicta delectus fugiat aut
@@ -29,8 +35,8 @@ function App() {
               </h4>
             </div>
 
-            <div className='grid-1-child-2 phone-image-container'>
-              <img src={require('./images/iphone-x.png')} />
+            <div className='col-lg-6 phone-image-container'>
+              <img src={require('./images/iphone-x.png')} alt='iphone-img' />
             </div>
           </div>
         </Container>
@@ -51,8 +57,8 @@ function App() {
       {/*Section*/}
       <div className='section washed-blue-gradient text-light'>
         <Container>
-          <div className='grid-1-parent'>
-            <div className='grid-1-child-1'>
+          <div className='row'>
+            <div className='col-lg-6'>
               <h1>The on-site digital workplace</h1>
               <h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
@@ -60,19 +66,6 @@ function App() {
                 facere officiis?
                 <h4>Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
               </h4>
-            </div>
-            <div className='grid-1-child-2 phone-image-container'>
-              <img src={require('./images/iphone-x.png')} />
-            </div>
-          </div>
-        </Container>
-      </div>
-      {/*Section*/}
-      <div className='section washed-blue-purple-gradient text-light'>
-        <Container>
-          <div className='grid-1-parent'>
-            <div className='grid-1-child-1'>
-              <h1>The on-site digital workplace</h1>
               <h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
                 sapiente, beatae at voluptas eaque dicta delectus fugiat aut
@@ -81,8 +74,34 @@ function App() {
               </h4>
             </div>
 
-            <div className='grid-1-child-2 phone-image-container'>
-              <img src={require('./images/iphone-x.png')} />
+            <div className='col-lg-6 phone-image-container'>
+              <img src={require('./images/iphone-x.png')} alt='iphone-img' />
+            </div>
+          </div>
+        </Container>
+      </div>
+      {/*Section*/}
+      <div className='section washed-blue-purple-gradient text-light'>
+        <Container>
+          <div className='row'>
+            <div className='col-lg-6'>
+              <h1>The on-site digital workplace</h1>
+              <h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                sapiente, beatae at voluptas eaque dicta delectus fugiat aut
+                facere officiis?
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
+              </h4>
+              <h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                sapiente, beatae at voluptas eaque dicta delectus fugiat aut
+                facere officiis?
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
+              </h4>
+            </div>
+
+            <div className='col-lg-6 phone-image-container'>
+              <img src={require('./images/iphone-x.png')} alt='iphone-img' />
             </div>
           </div>
         </Container>
