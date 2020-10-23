@@ -7,6 +7,7 @@ import { TaskManagement } from './components/TaskManagement';
 import { EquipmentMonitoring } from './components/EquipmentMonitoring';
 import { OrganisationManagement } from './components/OrganisationManagement';
 import { Analytics } from './components/Analytics';
+import { AboutUs } from './components/AboutUs';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +18,7 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Switch>
-        <Route path='/' component={Home} exact />
+        <Route path='/monitor' component={Home} exact />
         <Route path='/task-management' component={TaskManagement} exact />
         <Route
           path='/equipment-monitoring'
@@ -30,6 +31,7 @@ function App() {
           exact
         />
         <Route path='/analytics' component={Analytics} exact />
+        <Route path='/about-us' component={AboutUs} exact />
       </Switch>
     </BrowserRouter>
   );

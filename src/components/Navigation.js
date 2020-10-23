@@ -7,7 +7,7 @@ export class Navigation extends Component {
     return (
       <Navbar bg='light' expand='lg'>
         <div className='d-flex ml-auto mr-auto'>
-          <NavLink to='/'>
+          <NavLink to='/monitor'>
             <Navbar.Brand>
               <img
                 src={require('../images/logo-name.png')}
@@ -24,7 +24,7 @@ export class Navigation extends Component {
               {/*Solutions*/}
               <NavDropdown title='Solutions' id='solutions-nav'>
                 <NavDropdown.Item>
-                  <NavLink to='/task-management'>Tast Management</NavLink>
+                  <NavLink to='/task-management'>Task Management</NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
@@ -56,6 +56,8 @@ export class Navigation extends Component {
                 <NavDropdown.Item>Technology Stack</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>Style Guide</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item><NavLink to='/about-us'>About Us</NavLink></NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
