@@ -1,31 +1,28 @@
 {
   "files": {
     "main.css": "/monitor/static/css/main.60735943.chunk.css",
-    "main.js": "/monitor/static/js/main.98fe5c59.chunk.js",
-    "main.js.map": "/monitor/static/js/main.98fe5c59.chunk.js.map",
+    "main.js": "/monitor/static/js/main.c51da7f3.chunk.js",
+    "main.js.map": "/monitor/static/js/main.c51da7f3.chunk.js.map",
     "runtime-main.js": "/monitor/static/js/runtime-main.ae3f48d2.js",
     "runtime-main.js.map": "/monitor/static/js/runtime-main.ae3f48d2.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/monitor/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.b62577f7.chunk.js": "/monitor/static/js/2.b62577f7.chunk.js",
-    "static/js/2.b62577f7.chunk.js.map": "/monitor/static/js/2.b62577f7.chunk.js.map",
+    "static/js/2.cce9bb1f.chunk.js": "/monitor/static/js/2.cce9bb1f.chunk.js",
+    "static/js/2.cce9bb1f.chunk.js.map": "/monitor/static/js/2.cce9bb1f.chunk.js.map",
     "index.html": "/monitor/index.html",
-    "precache-manifest.f346fa0f4da3105c29e6d2272f31c02c.js": "/monitor/precache-manifest.f346fa0f4da3105c29e6d2272f31c02c.js",
+    "precache-manifest.77efbb5bcd6da2f480e1918d4a2e1c86.js": "/monitor/precache-manifest.77efbb5bcd6da2f480e1918d4a2e1c86.js",
     "service-worker.js": "/monitor/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/monitor/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.60735943.chunk.css.map": "/monitor/static/css/main.60735943.chunk.css.map",
-    "static/js/2.b62577f7.chunk.js.LICENSE.txt": "/monitor/static/js/2.b62577f7.chunk.js.LICENSE.txt",
-    "static/media/dio.png": "/monitor/static/media/dio.0a8d4db0.png",
+    "static/js/2.cce9bb1f.chunk.js.LICENSE.txt": "/monitor/static/js/2.cce9bb1f.chunk.js.LICENSE.txt",
     "static/media/fancy.png": "/monitor/static/media/fancy.8a4c01bc.png",
     "static/media/iphone-x.png": "/monitor/static/media/iphone-x.9fc10eee.png",
-    "static/media/logo-name.png": "/monitor/static/media/logo-name.fb3bfe87.png",
-    "static/media/rice.png": "/monitor/static/media/rice.816f4e8a.png",
-    "static/media/wut.png": "/monitor/static/media/wut.c886b99b.png"
+    "static/media/logo-name.png": "/monitor/static/media/logo-name.fb3bfe87.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae3f48d2.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.b62577f7.chunk.js",
+    "static/js/2.cce9bb1f.chunk.js",
     "static/css/main.60735943.chunk.css",
-    "static/js/main.98fe5c59.chunk.js"
+    "static/js/main.c51da7f3.chunk.js"
   ]
 }
