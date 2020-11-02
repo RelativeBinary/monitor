@@ -7,7 +7,7 @@ export class Navigation extends Component {
     return (
       <Navbar bg='light' expand='lg'>
         <div className='d-flex ml-auto mr-auto'>
-          <NavLink to='/'>
+          <NavLink to='/monitor'>
             <Navbar.Brand>
               <img
                 src={require('../images/logo-name.png')}
@@ -24,38 +24,54 @@ export class Navigation extends Component {
               {/*Solutions*/}
               <NavDropdown title='Solutions' id='solutions-nav'>
                 <NavDropdown.Item>
-                  <NavLink to='/task-management'>Tast Management</NavLink>
+                  <NavLink to='/monitor/task-management'>
+                    Tast Management
+                  </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/equipment-monitoring'>
+                  <NavLink to='/monitor/equipment-monitoring'>
                     Equipment Monitoring
                   </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/organisation-management'>
+                  <NavLink to='/monitor/organisation-management'>
                     Organisation Management
                   </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/analytics'>Analytics</NavLink>
+                  <NavLink to='/monitor/analytics'>Analytics</NavLink>
                 </NavDropdown.Item>
               </NavDropdown>
               {/*Resources*/}
-              <NavDropdown title='Resources' id='solutions-nav'>
-                <NavDropdown.Item>User Manual</NavDropdown.Item>
+              <NavDropdown title='Resources'>
+                <NavDropdown.Item>
+                  <NavLink to='/monitor/user-manual'>User Manual</NavLink>
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item>Security Features</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink to='/monitor/security-features'>
+                    Security Features
+                  </NavLink>
+                </NavDropdown.Item>
               </NavDropdown>
               {/*About*/}
-              <NavDropdown title='About' id='basic-nav-dropdown'>
-                <NavDropdown.Item>Meet The Team</NavDropdown.Item>
+              <NavDropdown title='About'>
+                <NavDropdown.Item>
+                  <NavLink to='/monitor/meet-the-team'>Meet The Team</NavLink>
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item>Technology Stack</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink to='/monitor/technology-stack'>
+                    Technology Stack
+                  </NavLink>
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item>Style Guide</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink to='/monitor/style-guide'>Style Guide</NavLink>
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

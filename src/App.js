@@ -7,6 +7,11 @@ import { TaskManagement } from './components/TaskManagement';
 import { EquipmentMonitoring } from './components/EquipmentMonitoring';
 import { OrganisationManagement } from './components/OrganisationManagement';
 import { Analytics } from './components/Analytics';
+import { UserManual } from './components/UserManual';
+import { SecurityFeatures } from './components/SecurityFeatures';
+import { MeetTheTeam } from './components/MeetTheTeam';
+import { TechnologyStack } from './components/TechnologyStack';
+import { StyleGuide } from './components/StyleGuide';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,19 +22,36 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Switch>
-        <Route path='/' component={Home} exact />
-        <Route path='/task-management' component={TaskManagement} exact />
+        <Route path='/monitor' component={Home} exact />
         <Route
-          path='/equipment-monitoring'
+          path='/monitor/task-management'
+          component={TaskManagement}
+          exact
+        />
+        <Route
+          path='/monitor/equipment-monitoring'
           component={EquipmentMonitoring}
           exact
         />
         <Route
-          path='/organisation-management'
+          path='/monitor/organisation-management'
           component={OrganisationManagement}
           exact
         />
-        <Route path='/analytics' component={Analytics} exact />
+        <Route path='/monitor/analytics' component={Analytics} exact />
+        <Route path='/monitor/user-manual' component={UserManual} exact />
+        <Route
+          path='/monitor/security-features'
+          component={SecurityFeatures}
+          exact
+        />
+        <Route path='/monitor/meet-the-team' component={MeetTheTeam} exact />
+        <Route
+          path='/monitor/technology-stack'
+          component={TechnologyStack}
+          exact
+        />
+        <Route path='/monitor/style-guide' component={StyleGuide} exact />
       </Switch>
     </BrowserRouter>
   );
