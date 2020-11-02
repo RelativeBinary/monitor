@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export class Navigation extends Component {
   render() {
@@ -24,38 +25,30 @@ export class Navigation extends Component {
               {/*Solutions*/}
               <NavDropdown title='Solutions' id='solutions-nav'>
                 <NavDropdown.Item>
-                  <NavLink to='/monitor/task-management'>
-                    Tast Management
+                  <NavLink to='/iot'>IoT</NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item>
+                  <NavLink to='/data-collection'>
+                    Data Collection
                   </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/monitor/equipment-monitoring'>
-                    Equipment Monitoring
+                  <NavLink to='/document-management'>
+                    Document Management
                   </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/monitor/organisation-management'>
-                    Organisation Management
-                  </NavLink>
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item>
-                  <NavLink to='/monitor/analytics'>Analytics</NavLink>
+                  <NavLink to='/future-goals'>Future Goals</NavLink>
                 </NavDropdown.Item>
               </NavDropdown>
               {/*Resources*/}
-              <NavDropdown title='Resources'>
-                <NavDropdown.Item>
-                  <NavLink to='/monitor/user-manual'>User Manual</NavLink>
-                </NavDropdown.Item>
+              <NavDropdown title='Resources' id='solutions-nav'>
+                <NavDropdown.Item>User Guide</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item>
-                  <NavLink to='/monitor/security-features'>
-                    Security Features
-                  </NavLink>
-                </NavDropdown.Item>
+                <NavDropdown.Item>Problem Description</NavDropdown.Item>
               </NavDropdown>
               {/*About*/}
               <NavDropdown title='About'>
@@ -69,9 +62,9 @@ export class Navigation extends Component {
                   </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item>
-                  <NavLink to='/monitor/style-guide'>Style Guide</NavLink>
-                </NavDropdown.Item>
+                <NavDropdown.Item>Style Guide</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item><NavLink to='/about-us'>About Us</NavLink></NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

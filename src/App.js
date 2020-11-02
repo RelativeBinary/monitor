@@ -3,15 +3,19 @@ import './App.css';
 
 import { Navigation } from './components/Navigation';
 import { Home } from './components/Home';
-import { TaskManagement } from './components/TaskManagement';
-import { EquipmentMonitoring } from './components/EquipmentMonitoring';
-import { OrganisationManagement } from './components/OrganisationManagement';
-import { Analytics } from './components/Analytics';
-import { UserManual } from './components/UserManual';
-import { SecurityFeatures } from './components/SecurityFeatures';
-import { MeetTheTeam } from './components/MeetTheTeam';
-import { TechnologyStack } from './components/TechnologyStack';
-import { StyleGuide } from './components/StyleGuide';
+import {Problem} from './components/Problem';
+
+//{/* Solution Components */}
+import {IoT} from './components/IoT';
+import {DataCollection} from './components/DataCollection';
+import {DocumentManagement} from './components/DocumentManagement';
+import {FutureGoals} from './components/FutureGoals';
+
+//{/*Resource Components */}
+
+
+//{/*About Components*/}
+import { AboutUs } from './components/AboutUs';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,35 +27,21 @@ function App() {
       <Navigation />
       <Switch>
         <Route path='/monitor' component={Home} exact />
+        <Route path='/problem' component={Problem} exact />
+        {/*Solution Components*/}
+        <Route path='/iot' component={IoT} exact />
         <Route
-          path='/monitor/task-management'
-          component={TaskManagement}
+          path='/data-collection'
+          component={DataCollection}
           exact
         />
         <Route
-          path='/monitor/equipment-monitoring'
-          component={EquipmentMonitoring}
+          path='/document-management'
+          component={DocumentManagement}
           exact
         />
-        <Route
-          path='/monitor/organisation-management'
-          component={OrganisationManagement}
-          exact
-        />
-        <Route path='/monitor/analytics' component={Analytics} exact />
-        <Route path='/monitor/user-manual' component={UserManual} exact />
-        <Route
-          path='/monitor/security-features'
-          component={SecurityFeatures}
-          exact
-        />
-        <Route path='/monitor/meet-the-team' component={MeetTheTeam} exact />
-        <Route
-          path='/monitor/technology-stack'
-          component={TechnologyStack}
-          exact
-        />
-        <Route path='/monitor/style-guide' component={StyleGuide} exact />
+        <Route path='/future-goals' component={FutureGoals} exact />
+        <Route path='/about-us' component={AboutUs} exact />
       </Switch>
     </BrowserRouter>
   );
