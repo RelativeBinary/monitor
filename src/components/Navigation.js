@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export class Navigation extends Component {
   render() {
@@ -24,30 +25,30 @@ export class Navigation extends Component {
               {/*Solutions*/}
               <NavDropdown title='Solutions' id='solutions-nav'>
                 <NavDropdown.Item>
-                  <NavLink to='/task-management'>Task Management</NavLink>
+                  <NavLink to='/iot'>IoT</NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/equipment-monitoring'>
-                    Equipment Monitoring
+                  <NavLink to='/data-collection'>
+                    Data Collection
                   </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/organisation-management'>
-                    Organisation Management
+                  <NavLink to='/document-management'>
+                    Document Management
                   </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/analytics'>Analytics</NavLink>
+                  <NavLink to='/future-goals'>Future Goals</NavLink>
                 </NavDropdown.Item>
               </NavDropdown>
               {/*Resources*/}
               <NavDropdown title='Resources' id='solutions-nav'>
-                <NavDropdown.Item>User Manual</NavDropdown.Item>
+                <NavDropdown.Item>User Guide</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item>Security Features</NavDropdown.Item>
+                <NavDropdown.Item>Problem Description</NavDropdown.Item>
               </NavDropdown>
               {/*About*/}
               <NavDropdown title='About' id='basic-nav-dropdown'>
