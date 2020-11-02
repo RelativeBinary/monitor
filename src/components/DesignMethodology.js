@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export class IoT extends Component {
+export class DesignMethodology extends Component {
   render() {
     return (
       <div className='d-flex justify-content-center'>
        <div className='documentation-card m-5 p-4 col-8'>
-         <h1>IoT Monitoring & Control</h1>
+         <h1>How Do We Design?</h1>
          <p>Give your staff the ability to view the status of the equipment they service or take it away. Easily add and remove IoT devices to our system. With easy to use access control add and remove your employees’ rights to view this information.</p>
          <h5>Benefits of out IoT Management:</h5>
          <ul>

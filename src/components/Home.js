@@ -13,7 +13,7 @@ export class Home extends Component {
           <Container>
             <div className='row'>
               <div className='col-lg-12'>
-                <h1>What Monitor hopes to address</h1>
+                <h1>What Monitor Hopes to Address</h1>
                 <h4>
                 Some of the major issues faced by the construction and trade sector:
                 </h4>
@@ -37,7 +37,7 @@ export class Home extends Component {
         </div>
         {/*Solution*/}
         <Container className='section'>
-          <h1>Why choose monitor? (Solution)</h1>
+          <h1>Why Choose Monitor?</h1>
           <h4>
             Monitor will provide an all-in-one software solution that will assist tradesmen and project managers in performing business operations.
           </h4>
@@ -62,13 +62,12 @@ export class Home extends Component {
           <Container>
             <div className='row'>
               <div className='col-lg-12'>
-                <h1>Our customers (our client)</h1>
+                <h1>Our Customers</h1>
                 <h4>
                   MRB Lift installations Pty Ltd are a small elevator trade-based company who work for some of the biggest elevator   companies in the world. Comprising of a small team of tradespeople, they are hoping to develop an application that  will improve the information flow to their field staff and facilitate greater access to technical data from the  companies they undertake their work for.
                   Their staff are young and tech savvy and using this application to bring their trade into the 21st century
                 </h4>
               </div>
-              <NavLink to='/customers'><button className='btn btn-light'>More Info</button></NavLink>
               {/*<div className='col-lg-6 phone-image-container'>
                 <img src={require('../images/iphone-x.png')} alt='iphone-img' />
               </div>*/}
@@ -80,7 +79,7 @@ export class Home extends Component {
           <Container>
             <div className='row'>
               <div className='col-lg-12'>
-                <h1>Who we cater for (target-market)</h1>
+                <h1>Who We Cater For</h1>
                 <h4>
                 Monitor is being developed with tradespeople in mind and will look to focus on the construction and building industry.
                 </h4>
@@ -93,21 +92,21 @@ export class Home extends Component {
                 </ul>
               </div>
             </div>
-            <NavLink to='/target-market'><button className='btn btn-light'>More Info</button></NavLink>
           </Container>
         </div>
         {/*Market Research*/}
         <Container className='section'>
-          <h1>About us (Market Research)</h1>
+          <h1>About us</h1>
           <h4>
           A software development company with a unique approach to designing world class software for the construction and building industry. 
           </h4>
           <h4>
-          Blending our extensive knowledge of the construction industry with our passion for software development, Monitor allows our clients to focus on what really matters, which is what happens on site. We design, build and test using the latest technology, ensuring that we stay at the forefront of the market with software that can be scaled to meet the requirements of the small mum and dad companies up to large multinational organisations.
+          Blending our extensive knowledge of the construction industry with our passion for software development, Monitor allows our clients to focus on what really matters, which is what happens on site. 
           </h4>
+          <h4>We design, build and test using the latest technology, ensuring that we stay at the forefront of the market with software that can be scaled to meet the requirements of the small mum and dad companies up to large multinational organisations.</h4>
           <NavLink to='/about-us'><button className='btn btn-primary'>More Info</button></NavLink>
         </Container>
-        {/*Cards*/}
+        {/*Why do trades people choose monitor*/}
         <div className='section washed-red-yellow-gradient text-light'>
           <div className='grid-2-parent'>
             <div className='grid-2-child-1'>
@@ -159,7 +158,7 @@ export class Home extends Component {
         </div>
         {/*Design Methodology*/}
         <Container className='section'>
-          <h1>How we do what we do? (Design Methodology)</h1>
+          <h1>How Do We Design?</h1>
           <h4>
           Monitor designs, tests and builds using the latest proven development methodologies, ensuring that we are as efficient as possible 
           </h4>
@@ -176,7 +175,7 @@ export class Home extends Component {
             <li>Greater user satisfaction</li>
             <li>Ability to complete complex projects that may not hae been possible</li>
           </ul>
-          <button className='btn btn-primary'>More Info</button>
+          <NavLink to='/design-methodology'><button className='btn btn-primary'>More Info</button></NavLink>
         </Container>
         {/*Meet The Team*/}
         <div className='section'>
@@ -357,6 +356,26 @@ In his spare time, he is an avid video-game player and casual artist. At univers
                   </div>
                 </div>
               </div>
+            </div>
+          </Container>
+        </div>
+        {/*Future Goals*/}
+        <div className='section blue-gradient text-light'>
+          <Container>
+            <div className='row'>
+              <div className='col-lg-12'>
+                <h1>Coming Soon...</h1>
+                <ul>
+                  <li>Task management</li>
+                  <li>Digital Licensing</li>
+                  <li>Machine learning and predictive analysis</li>
+                  <li>Online form creation</li>
+                </ul>
+                <NavLink to='/problem'><button className='btn btn-light'>More Info</button></NavLink>
+              </div>
+              {/*<div className='col-lg-6 phone-image-container'>
+                <img src={require('../images/iphone-x.png')} alt='iphone-img' />
+              </div>*/}
             </div>
           </Container>
         </div>

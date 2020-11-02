@@ -6,7 +6,7 @@ export class DocumentManagement extends Component {
       <div className='d-flex justify-content-center'>
        <div className='documentation-card m-5 p-4 col-8'>
          <h1>Document Management</h1>
-         <h4>Attach your technical documents to jobs, equipment or services ensuring that the necessary information is available at the click of the button. Grant and revoke permission to view these documents, ensuring that your sensitive data is always safe. </h4>
+         <p>Attach your technical documents to jobs, equipment or services ensuring that the necessary information is available at the click of the button. Grant and revoke permission to view these documents, ensuring that your sensitive data is always safe. </p>
          <ul>
            <li>Upload</li>
            <ul>
