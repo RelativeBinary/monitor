@@ -1,27 +1,33 @@
 {
   "files": {
     "main.css": "/monitor/static/css/main.b5c51c89.chunk.css",
-    "main.js": "/monitor/static/js/main.0061ffc5.chunk.js",
-    "main.js.map": "/monitor/static/js/main.0061ffc5.chunk.js.map",
+    "main.js": "/monitor/static/js/main.6430f06e.chunk.js",
+    "main.js.map": "/monitor/static/js/main.6430f06e.chunk.js.map",
     "runtime-main.js": "/monitor/static/js/runtime-main.ae3f48d2.js",
     "runtime-main.js.map": "/monitor/static/js/runtime-main.ae3f48d2.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/monitor/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.add2d49c.chunk.js": "/monitor/static/js/2.add2d49c.chunk.js",
-    "static/js/2.add2d49c.chunk.js.map": "/monitor/static/js/2.add2d49c.chunk.js.map",
+    "static/js/2.b665a142.chunk.js": "/monitor/static/js/2.b665a142.chunk.js",
+    "static/js/2.b665a142.chunk.js.map": "/monitor/static/js/2.b665a142.chunk.js.map",
     "index.html": "/monitor/index.html",
-    "precache-manifest.bb0ed95d99153cfb8200cbc9f62ccd84.js": "/monitor/precache-manifest.bb0ed95d99153cfb8200cbc9f62ccd84.js",
+    "precache-manifest.a536f737d06cd7094f49acee1d7d5130.js": "/monitor/precache-manifest.a536f737d06cd7094f49acee1d7d5130.js",
     "service-worker.js": "/monitor/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/monitor/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.b5c51c89.chunk.css.map": "/monitor/static/css/main.b5c51c89.chunk.css.map",
-    "static/js/2.add2d49c.chunk.js.LICENSE.txt": "/monitor/static/js/2.add2d49c.chunk.js.LICENSE.txt",
+    "static/js/2.b665a142.chunk.js.LICENSE.txt": "/monitor/static/js/2.b665a142.chunk.js.LICENSE.txt",
+    "static/media/datagrip.png": "/monitor/static/media/datagrip.5de14ff1.png",
     "static/media/fancy.png": "/monitor/static/media/fancy.8a4c01bc.png",
-    "static/media/logo-name.png": "/monitor/static/media/logo-name.fb3bfe87.png"
+    "static/media/github.png": "/monitor/static/media/github.5a50d10f.png",
+    "static/media/intellij-idea.png": "/monitor/static/media/intellij-idea.7fa433c9.png",
+    "static/media/logo-name.png": "/monitor/static/media/logo-name.fb3bfe87.png",
+    "static/media/pycharm.png": "/monitor/static/media/pycharm.a942c6ea.png",
+    "static/media/raspberrypi.png": "/monitor/static/media/raspberrypi.6a79cca5.png",
+    "static/media/webstorm.png": "/monitor/static/media/webstorm.b9cf857f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae3f48d2.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.add2d49c.chunk.js",
+    "static/js/2.b665a142.chunk.js",
     "static/css/main.b5c51c89.chunk.css",
-    "static/js/main.0061ffc5.chunk.js"
+    "static/js/main.6430f06e.chunk.js"
   ]
 }
