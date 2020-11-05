@@ -46,23 +46,23 @@ export class Navigation extends Component {
               </NavDropdown>
               {/*Resources*/}
               <NavDropdown title='Resources' id='solutions-nav'>
-                <NavDropdown.Item>User Guide</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item>Problem Description</NavDropdown.Item>
+                <NavDropdown.Item><NavLink to='/problem'>Problem Description</NavLink></NavDropdown.Item>
               </NavDropdown>
               {/*About*/}
               <NavDropdown title='About'>
                 <NavDropdown.Item>
-                  <NavLink to='/monitor/meet-the-team'>Meet The Team</NavLink>
+                  <NavLink to='/team'>Meet The Team</NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
-                  <NavLink to='/monitor/technology-stack'>
+                  <NavLink to='/technology'>
                     Technology Stack
                   </NavLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item>Style Guide</NavDropdown.Item>
+                <NavDropdown.Item><NavLink to='/design-methodology'>
+                    Style Guide
+                  </NavLink></NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item><NavLink to='/about-us'>About Us</NavLink></NavDropdown.Item>
               </NavDropdown>

@@ -18,6 +18,7 @@ import {FutureGoals} from './components/FutureGoals';
 import { AboutUs } from './components/AboutUs';
 import { DesignMethodology } from './components/DesignMethodology';
 import { Technology } from './components/Technology';
+import { MeetTheTeam } from './components/MeetTheTeam';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -46,6 +47,7 @@ function App() {
         <Route path='/about-us' component={AboutUs} exact />
         <Route path='/design-methodology' component={DesignMethodology} exact />
         <Route path='/technology' component={Technology} exact />
+        <Route path='/team' component={MeetTheTeam} exact/>
       </Switch>
     </BrowserRouter>
   );

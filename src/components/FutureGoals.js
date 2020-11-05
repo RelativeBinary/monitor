@@ -5,7 +5,7 @@ export class FutureGoals extends Component {
     return (
       <div className='d-flex justify-content-center'>
        <div className='documentation-card m-5 p-4 col-8'>
-       <h3>Future Goals</h3>
+       <h1>Future Goals</h1>
         <ul>
           <li>Task management</li>
           <ul>
