@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/monitor/static/css/main.b5c51c89.chunk.css",
-    "main.js": "/monitor/static/js/main.910bea81.chunk.js",
-    "main.js.map": "/monitor/static/js/main.910bea81.chunk.js.map",
+    "main.css": "/monitor/static/css/main.5f2266ab.chunk.css",
+    "main.js": "/monitor/static/js/main.647c7980.chunk.js",
+    "main.js.map": "/monitor/static/js/main.647c7980.chunk.js.map",
     "runtime-main.js": "/monitor/static/js/runtime-main.ae3f48d2.js",
     "runtime-main.js.map": "/monitor/static/js/runtime-main.ae3f48d2.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/monitor/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2febdc5b.chunk.js": "/monitor/static/js/2.2febdc5b.chunk.js",
-    "static/js/2.2febdc5b.chunk.js.map": "/monitor/static/js/2.2febdc5b.chunk.js.map",
+    "static/js/2.d3da5708.chunk.js": "/monitor/static/js/2.d3da5708.chunk.js",
+    "static/js/2.d3da5708.chunk.js.map": "/monitor/static/js/2.d3da5708.chunk.js.map",
     "index.html": "/monitor/index.html",
-    "precache-manifest.bee888886fb0a8832e6c5a2602ef5ea9.js": "/monitor/precache-manifest.bee888886fb0a8832e6c5a2602ef5ea9.js",
+    "precache-manifest.381e9834215e962399c1af3ac1310eb0.js": "/monitor/precache-manifest.381e9834215e962399c1af3ac1310eb0.js",
     "service-worker.js": "/monitor/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/monitor/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.b5c51c89.chunk.css.map": "/monitor/static/css/main.b5c51c89.chunk.css.map",
-    "static/js/2.2febdc5b.chunk.js.LICENSE.txt": "/monitor/static/js/2.2febdc5b.chunk.js.LICENSE.txt",
+    "static/css/main.5f2266ab.chunk.css.map": "/monitor/static/css/main.5f2266ab.chunk.css.map",
+    "static/js/2.d3da5708.chunk.js.LICENSE.txt": "/monitor/static/js/2.d3da5708.chunk.js.LICENSE.txt",
     "static/media/chris-2.png": "/monitor/static/media/chris-2.657bac3a.png",
     "static/media/datagrip.png": "/monitor/static/media/datagrip.5de14ff1.png",
     "static/media/github.png": "/monitor/static/media/github.5a50d10f.png",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.ae3f48d2.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2febdc5b.chunk.js",
-    "static/css/main.b5c51c89.chunk.css",
-    "static/js/main.910bea81.chunk.js"
+    "static/js/2.d3da5708.chunk.js",
+    "static/css/main.5f2266ab.chunk.css",
+    "static/js/main.647c7980.chunk.js"
   ]
 }
