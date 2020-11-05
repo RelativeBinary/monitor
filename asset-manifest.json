@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/monitor/static/css/main.b5c51c89.chunk.css",
-    "main.js": "/monitor/static/js/main.0b00dfa8.chunk.js",
-    "main.js.map": "/monitor/static/js/main.0b00dfa8.chunk.js.map",
+    "main.js": "/monitor/static/js/main.e9e90d1a.chunk.js",
+    "main.js.map": "/monitor/static/js/main.e9e90d1a.chunk.js.map",
     "runtime-main.js": "/monitor/static/js/runtime-main.ae3f48d2.js",
     "runtime-main.js.map": "/monitor/static/js/runtime-main.ae3f48d2.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/monitor/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.701036ae.chunk.js": "/monitor/static/js/2.701036ae.chunk.js",
-    "static/js/2.701036ae.chunk.js.map": "/monitor/static/js/2.701036ae.chunk.js.map",
+    "static/js/2.f08dcc9e.chunk.js": "/monitor/static/js/2.f08dcc9e.chunk.js",
+    "static/js/2.f08dcc9e.chunk.js.map": "/monitor/static/js/2.f08dcc9e.chunk.js.map",
     "index.html": "/monitor/index.html",
-    "precache-manifest.d574c0c8094dfae4ee179d50efe4b7af.js": "/monitor/precache-manifest.d574c0c8094dfae4ee179d50efe4b7af.js",
+    "precache-manifest.443bd612465df4e321ca2c97b91f8ebe.js": "/monitor/precache-manifest.443bd612465df4e321ca2c97b91f8ebe.js",
     "service-worker.js": "/monitor/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/monitor/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.b5c51c89.chunk.css.map": "/monitor/static/css/main.b5c51c89.chunk.css.map",
-    "static/js/2.701036ae.chunk.js.LICENSE.txt": "/monitor/static/js/2.701036ae.chunk.js.LICENSE.txt",
+    "static/js/2.f08dcc9e.chunk.js.LICENSE.txt": "/monitor/static/js/2.f08dcc9e.chunk.js.LICENSE.txt",
+    "static/media/chris-2.png": "/monitor/static/media/chris-2.657bac3a.png",
     "static/media/datagrip.png": "/monitor/static/media/datagrip.5de14ff1.png",
     "static/media/fancy.png": "/monitor/static/media/fancy.8a4c01bc.png",
     "static/media/github.png": "/monitor/static/media/github.5a50d10f.png",
     "static/media/intellij-idea.png": "/monitor/static/media/intellij-idea.7fa433c9.png",
     "static/media/logo-name.png": "/monitor/static/media/logo-name.fb3bfe87.png",
     "static/media/manik.jpg": "/monitor/static/media/manik.0c2e5ed4.jpg",
+    "static/media/molin-1.png": "/monitor/static/media/molin-1.647e24d2.png",
     "static/media/pycharm.png": "/monitor/static/media/pycharm.a942c6ea.png",
     "static/media/raspberrypi.png": "/monitor/static/media/raspberrypi.6a79cca5.png",
     "static/media/webstorm.png": "/monitor/static/media/webstorm.b9cf857f.png"
@@ -27,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.ae3f48d2.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.701036ae.chunk.js",
+    "static/js/2.f08dcc9e.chunk.js",
     "static/css/main.b5c51c89.chunk.css",
-    "static/js/main.0b00dfa8.chunk.js"
+    "static/js/main.e9e90d1a.chunk.js"
   ]
 }
