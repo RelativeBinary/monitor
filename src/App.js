@@ -16,6 +16,8 @@ import {FutureGoals} from './components/FutureGoals';
 
 //{/*About Components*/}
 import { AboutUs } from './components/AboutUs';
+import { DesignMethodology } from './components/DesignMethodology';
+import { Technology } from './components/Technology';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -42,6 +44,8 @@ function App() {
         />
         <Route path='/future-goals' component={FutureGoals} exact />
         <Route path='/about-us' component={AboutUs} exact />
+        <Route path='/design-methodology' component={DesignMethodology} exact />
+        <Route path='/technology' component={Technology} exact />
       </Switch>
     </BrowserRouter>
   );
