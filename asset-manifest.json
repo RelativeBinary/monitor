@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/monitor/static/css/main.5f2266ab.chunk.css",
-    "main.js": "/monitor/static/js/main.647c7980.chunk.js",
-    "main.js.map": "/monitor/static/js/main.647c7980.chunk.js.map",
+    "main.css": "/monitor/static/css/main.bc747eaa.chunk.css",
+    "main.js": "/monitor/static/js/main.b45290b1.chunk.js",
+    "main.js.map": "/monitor/static/js/main.b45290b1.chunk.js.map",
     "runtime-main.js": "/monitor/static/js/runtime-main.ae3f48d2.js",
     "runtime-main.js.map": "/monitor/static/js/runtime-main.ae3f48d2.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/monitor/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.d3da5708.chunk.js": "/monitor/static/js/2.d3da5708.chunk.js",
-    "static/js/2.d3da5708.chunk.js.map": "/monitor/static/js/2.d3da5708.chunk.js.map",
+    "static/js/2.5ea2556e.chunk.js": "/monitor/static/js/2.5ea2556e.chunk.js",
+    "static/js/2.5ea2556e.chunk.js.map": "/monitor/static/js/2.5ea2556e.chunk.js.map",
     "index.html": "/monitor/index.html",
-    "precache-manifest.381e9834215e962399c1af3ac1310eb0.js": "/monitor/precache-manifest.381e9834215e962399c1af3ac1310eb0.js",
+    "precache-manifest.c83dd5bfd16991109801c78fa2b4bce2.js": "/monitor/precache-manifest.c83dd5bfd16991109801c78fa2b4bce2.js",
     "service-worker.js": "/monitor/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/monitor/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.5f2266ab.chunk.css.map": "/monitor/static/css/main.5f2266ab.chunk.css.map",
-    "static/js/2.d3da5708.chunk.js.LICENSE.txt": "/monitor/static/js/2.d3da5708.chunk.js.LICENSE.txt",
+    "static/css/main.bc747eaa.chunk.css.map": "/monitor/static/css/main.bc747eaa.chunk.css.map",
+    "static/js/2.5ea2556e.chunk.js.LICENSE.txt": "/monitor/static/js/2.5ea2556e.chunk.js.LICENSE.txt",
     "static/media/chris-2.png": "/monitor/static/media/chris-2.657bac3a.png",
     "static/media/datagrip.png": "/monitor/static/media/datagrip.5de14ff1.png",
     "static/media/github.png": "/monitor/static/media/github.5a50d10f.png",
@@ -25,13 +25,14 @@
     "static/media/pat.png": "/monitor/static/media/pat.c0c3ab65.png",
     "static/media/pycharm.png": "/monitor/static/media/pycharm.a942c6ea.png",
     "static/media/raspberrypi.png": "/monitor/static/media/raspberrypi.6a79cca5.png",
+    "static/media/ui-iot-monitoring.png": "/monitor/static/media/ui-iot-monitoring.1872d4d4.png",
     "static/media/webstorm.png": "/monitor/static/media/webstorm.b9cf857f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae3f48d2.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.d3da5708.chunk.js",
-    "static/css/main.5f2266ab.chunk.css",
-    "static/js/main.647c7980.chunk.js"
+    "static/js/2.5ea2556e.chunk.js",
+    "static/css/main.bc747eaa.chunk.css",
+    "static/js/main.b45290b1.chunk.js"
   ]
 }

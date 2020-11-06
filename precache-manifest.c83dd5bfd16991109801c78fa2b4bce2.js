@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2044ac7f2f1361d9cded38e9a62c9237",
+    "revision": "1a82dfd1c40ba838f7c6233abd51c1d7",
     "url": "/monitor/index.html"
   },
   {
-    "revision": "ac02f4b1aee378060e27",
+    "revision": "5be41bc16ea3ec4899bd",
     "url": "/monitor/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "f7e81453f71b0cf37349",
-    "url": "/monitor/static/css/main.5f2266ab.chunk.css"
+    "revision": "c8b3771b320a6371d9d9",
+    "url": "/monitor/static/css/main.bc747eaa.chunk.css"
   },
   {
-    "revision": "ac02f4b1aee378060e27",
-    "url": "/monitor/static/js/2.d3da5708.chunk.js"
+    "revision": "5be41bc16ea3ec4899bd",
+    "url": "/monitor/static/js/2.5ea2556e.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/monitor/static/js/2.d3da5708.chunk.js.LICENSE.txt"
+    "url": "/monitor/static/js/2.5ea2556e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7e81453f71b0cf37349",
-    "url": "/monitor/static/js/main.647c7980.chunk.js"
+    "revision": "c8b3771b320a6371d9d9",
+    "url": "/monitor/static/js/main.b45290b1.chunk.js"
   },
   {
     "revision": "be0c8fe0edc1f519e9a1",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6a79cca5a53ac88928fdb0f2cdb677f9",
     "url": "/monitor/static/media/raspberrypi.6a79cca5.png"
+  },
+  {
+    "revision": "1872d4d475cb2be7e7896ee471c1edd5",
+    "url": "/monitor/static/media/ui-iot-monitoring.1872d4d4.png"
   },
   {
     "revision": "b9cf857faf911ee572375c457cead4a8",
