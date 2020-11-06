@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export class Problem extends Component {
   render() {
     return (
-      <div className='d-flex justify-content-center'>
-      <div className='documentation-card m-5 p-4 col-8'>
+      <div className='d-flex justify-content-center dark-blue'>
+      <div className='documentation-card m-5 p-4 col-8 bg-light'>
         <h1>What Monitor Hopes to Address</h1>
         <p>The current use of technology in the construction and trade sector is being greatly underutilised. Time is lost trying to manage or access documentation that can aid in problem diagnosis or operational optimisation. Such documentation is often necessary, but unavailable due to mistrust or inconvenience.</p>
         <p>Work sites generate enormous amounts of documentation, which are printed and filled out by hand, resulting in communication delays and the consumption of excessive quantities of paper. This becomes a recurring problem as records (technical drawings, permits, etc) are often destroyed or damaged and have to be re-printed and distributed, causing significant financial and environmental cost.</p>

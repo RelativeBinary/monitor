@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export class DesignMethodology extends Component {
   render() {
     return (
-      <div className='d-flex justify-content-center'>
-        <div className='documentation-card m-5 p-4 col-8'>
+      <div className='d-flex justify-content-center dark-blue'>
+        <div className='documentation-card m-5 p-4 col-8 bg-light'>
           <h1>How Do We Design?</h1>
           <p>Scrum will allow Monitor to develop and test multiple components simultaneously rather than sequentially. Our team of developers will be able to work on the fly which will result in quicker development times and reduced costs. Scrum as a methodology accounts for change and as a result, the life of the project is flexible. This increased flexibility allows for greater project complexity and adaptability, meaning that the scope can be changed as needed.</p>
           <p>

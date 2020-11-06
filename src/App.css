@@ -121,12 +121,43 @@
   padding-left: 40px;
 }
 
-.blue-gradient {
-  background: rgb(6, 0, 99);
+.dark-blue {
+  background: #0b4870;
+}
+
+.btn-primary.custom-btn {
+  background: #0b4870;
+}
+
+.light-blue {
+  background: rgb(11, 79, 124);
+  background: linear-gradient(
+    149deg,
+    rgba(11, 79, 124, 1) 5%,
+    rgba(87, 164, 255, 1) 100%
+  );
+}
+
+.light-blue-gradient {
+  background: rgb(11, 79, 124);
+  background: linear-gradient(
+    41deg,
+    rgba(11, 79, 124, 1) 0%,
+    rgba(87, 164, 255, 1) 91%
+  );
+}
+
+.blue-navy {
+  background: #021f32;
+}
+
+.dark-blue-gradient {
+  background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(6, 0, 99, 1) 6%,
-    rgba(0, 69, 255, 1) 100%
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 72, 112, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
   );
 }
 

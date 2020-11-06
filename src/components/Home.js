@@ -9,7 +9,7 @@ export class Home extends Component {
     return (
       <div>
         {/*About Us*/}
-        <div className='section blue-gradient text-light'>
+        <div className='section dark-blue text-light'>
           <Container>
             <div className='row'>
               <div className='col-lg-12'>
@@ -41,7 +41,7 @@ export class Home extends Component {
             <li>Fault notification and logging </li>
             <li>Data collection</li>
           </ul>
-          <NavLink to='/iot'><button className='btn btn-primary mb-2'>More Info</button></NavLink>
+          <NavLink to='/iot'><button className='btn btn-primary mb-2 custom-btn'>More Info</button></NavLink>
           <ul>
             <h5>Documentation management</h5>
             <li>Document upload</li>
@@ -49,10 +49,17 @@ export class Home extends Component {
             <li>Digitised manuals, product information guides and technical drawings</li>
             <li>Document search capabilities</li>
           </ul>
-          <NavLink to='/document-management'><button className='btn btn-primary'>More Info</button></NavLink>
+          <NavLink to='/document-management'><button className='btn btn-primary mb-2 custom-btn'>More Info</button></NavLink>
+          <ul>
+            <h5>User Management, Security and Access Control</h5>
+            <li>Easy user management</li>
+            <li>Easy encryption and decryption of secure files</li>
+            <li>Easy management of access</li>
+          </ul>
+          <NavLink to='/access-control'><button className='btn btn-primary mb-2 custom-btn'>More Info</button></NavLink>
         </Container>
         {/*What monitor aims to address*/}
-        <div className='section washed-blue-gradient text-light'>
+        <div className='section light-blue text-light'>
           <Container>
             <div className='row'>
               <div className='col-lg-12'>
@@ -70,7 +77,7 @@ export class Home extends Component {
                   <li>Lack of security in information sharing</li>
                   <li>Lack of digital access to required documents</li>
                 </ul>
-                <NavLink to='/problem'><button className='btn btn-primary'>More Info</button></NavLink>
+                <NavLink to='/problem'><button className='btn btn-light'>More Info</button></NavLink>
               </div>
               {/*<div className='col-lg-6 phone-image-container'>
                 <img src={require('../images/iphone-x.png')} alt='iphone-img' />
@@ -79,7 +86,7 @@ export class Home extends Component {
           </Container>
         </div>
         {/*Who We Cater For*/}
-        <div className='section washed-blue-purple-gradient text-light'>
+        <div className='section'>
           <Container>
             <div className='row'>
               <div className='col-lg-12'>
@@ -99,13 +106,10 @@ export class Home extends Component {
           </Container>
         </div>
         {/*Why do tradespeople choose monitor*/}
-        <div id='test' className='section washed-red-yellow-gradient text-light'>
+        <div id='test' className='section light-blue-gradient text-light'>
           <div className='grid-2-parent'>
             <div className='grid-2-child-1'>
               <h1>Why do tradespeople choose Monitor?</h1>
-              <h4>
-                Incididunt officia magna dolor anim excepteur eiusmod elit.
-              </h4>
             </div>
             <div className='grid-2-child-2 text-dark bg-light card-style'>
               <h4>Industry Experience</h4>
@@ -164,10 +168,10 @@ export class Home extends Component {
             <li>Greater user satisfaction</li>
             <li>Ability to complete complex projects that may not hae been possible</li>
           </ul>
-          <NavLink to='/design-methodology'><button className='btn btn-primary'>More Info</button></NavLink>
+          <NavLink to='/design-methodology'><button className='btn btn-primary custom-btn'>More Info</button></NavLink>
         </Container>
         {/*Development Environment*/}
-        <div className='section washed-blue-gradient text-light'>
+        <div className='section dark-blue text-light'>
           <Container>
             <div className='row'>
               <div className='col-lg-12'>
@@ -200,7 +204,8 @@ export class Home extends Component {
           </h4>
         </Container>
         {/*Future Goals*/}
-        <div className='section blue-gradient text-light'>
+        <hr/>
+        <div className='section'>
           <Container>
             <div className='row'>
               <div className='col-lg-12'>
@@ -211,7 +216,29 @@ export class Home extends Component {
                   <li>Machine learning and predictive analysis</li>
                   <li>Online form creation</li>
                 </ul>
-                <NavLink to='/problem'><button className='btn btn-light'>More Info</button></NavLink>
+                <NavLink to='/problem'><button className='btn btn-primary custom-btn'>More Info</button></NavLink>
+              </div>
+              {/*<div className='col-lg-6 phone-image-container'>
+                <img src={require('../images/iphone-x.png')} alt='iphone-img' />
+              </div>*/}
+            </div>
+          </Container>
+        </div>
+        {/*contact us*/}
+        <div className='section blue-navy text-light'>
+          <Container>
+            <div className='row'>
+              <div className='col-lg-12'>
+                <h1>Contact Us</h1>
+                  <h5>Address:</h5>
+                  <ul>
+                    <li>Northfields Ave, Wollongong NSW 2522</li>
+                  </ul>
+                  
+                  <h5>Email:</h5>
+                  <ul>
+                    <li>mrb242@uowmail.edu.au</li>
+                  </ul>
               </div>
               {/*<div className='col-lg-6 phone-image-container'>
                 <img src={require('../images/iphone-x.png')} alt='iphone-img' />

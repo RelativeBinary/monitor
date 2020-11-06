@@ -130,7 +130,7 @@ export class MeetTheTeam extends Component {
                   <h1>Molin Lai</h1>
                   <p>
                     <h2>Biography</h2>
-                    <p>Design figma and PS pro, Can pick up technology quickly, Makes a good bubble tea</p>
+                    <p>Molin is a passionate computer science student with a flair for art and design. She is passionate about creating great user centred products that have an intuitive feel and a great look. Molin has been largely responsible for the way the Monitor application looks and feels and has used her passion for art to transform Monitor into what it looks like today.</p>
                     <h2>Roles</h2>
                     <p>UI Designer - Graphic Designer</p>
                     <h2>Responsibilities</h2>

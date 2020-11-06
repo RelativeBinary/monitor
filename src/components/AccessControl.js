@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export class AccessControl extends Component {
   render() {
     return (
-      <div className='d-flex justify-content-center'>
-        <div className='documentation-card m-5 p-4 col-8'>
+      <div className='d-flex justify-content-center dark-blue'>
+        <div className='documentation-card m-5 p-4 col-8 bg-light'>
           <h1>User management, security and access control</h1>
           <ul>
             <li>Easy user management</li>
@@ -23,6 +23,9 @@ export class AccessControl extends Component {
               <li>Set expiration dates on sensitive data ensuring you never forget to remove you collaborators</li>
             </ul>
           </ul>
+          <div className='col-lg-6 phone-image-container mx-auto'>
+          <img src={require('../images/ui-access-control.png')} alt='iphone-img' />
+        </div>
         </div>
       </div>
     );

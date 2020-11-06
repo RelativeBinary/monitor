@@ -41,6 +41,12 @@ export class Navigation extends Component {
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
+                  <NavLink to='/access-control'>
+                    Access Control
+                  </NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item>
                   <NavLink to='/future-goals'>Future Goals</NavLink>
                 </NavDropdown.Item>
               </NavDropdown>
@@ -61,7 +67,7 @@ export class Navigation extends Component {
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item><NavLink to='/design-methodology'>
-                    Style Guide
+                    Design Methodology
                   </NavLink></NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item><NavLink to='/about-us'>About Us</NavLink></NavDropdown.Item>

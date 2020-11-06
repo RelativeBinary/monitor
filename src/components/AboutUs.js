@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export class AboutUs extends Component {
   render() {
     return (
-      <div className='d-flex justify-content-center'>
-       <div className='documentation-card m-5 p-4 col-8'>
+      <div className='d-flex justify-content-center dark-blue'>
+       <div className='documentation-card m-5 p-4 col-8 bg-light'>
        <h3>About Us (Market Research)</h3>
         <p>
           The current use of technology in the construction and trade sector is being greatly underutilised. Time is lost trying to manage or access documentation that can aid in problem diagnosis or operational optimisation. Such documentation is often necessary, but unavailable due to mistrust or inconvenience.

@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export class FutureGoals extends Component {
   render() {
     return (
-      <div className='d-flex justify-content-center'>
-       <div className='documentation-card m-5 p-4 col-8'>
+      <div className='d-flex justify-content-center dark-blue'>
+       <div className='documentation-card m-5 p-4 col-8 bg-light'>
        <h1>Future Goals</h1>
         <ul>
           <li>Task management</li>

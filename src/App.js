@@ -9,6 +9,7 @@ import {Problem} from './components/Problem';
 import {IoT} from './components/IoT';
 import {DataCollection} from './components/DataCollection';
 import {DocumentManagement} from './components/DocumentManagement';
+import { AccessControl } from './components/AccessControl';
 import {FutureGoals} from './components/FutureGoals';
 
 //{/*Resource Components */}
@@ -43,6 +44,7 @@ function App() {
           component={DocumentManagement}
           exact
         />
+        <Route path='/access-control' component={AccessControl} exact />
         <Route path='/future-goals' component={FutureGoals} exact />
         <Route path='/about-us' component={AboutUs} exact />
         <Route path='/design-methodology' component={DesignMethodology} exact />
