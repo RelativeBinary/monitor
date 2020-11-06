@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a82dfd1c40ba838f7c6233abd51c1d7",
+    "revision": "ac3ecb694266a4ddfcee81350557a9c3",
     "url": "/monitor/index.html"
   },
   {
-    "revision": "5be41bc16ea3ec4899bd",
+    "revision": "51b460872d9ef5dfc4ff",
     "url": "/monitor/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "c8b3771b320a6371d9d9",
+    "revision": "e6de3356323ac3c3a55a",
     "url": "/monitor/static/css/main.bc747eaa.chunk.css"
   },
   {
-    "revision": "5be41bc16ea3ec4899bd",
-    "url": "/monitor/static/js/2.5ea2556e.chunk.js"
+    "revision": "51b460872d9ef5dfc4ff",
+    "url": "/monitor/static/js/2.216c4c4b.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/monitor/static/js/2.5ea2556e.chunk.js.LICENSE.txt"
+    "url": "/monitor/static/js/2.216c4c4b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c8b3771b320a6371d9d9",
-    "url": "/monitor/static/js/main.b45290b1.chunk.js"
+    "revision": "e6de3356323ac3c3a55a",
+    "url": "/monitor/static/js/main.93e2d203.chunk.js"
   },
   {
     "revision": "be0c8fe0edc1f519e9a1",
@@ -72,8 +72,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/monitor/static/media/raspberrypi.6a79cca5.png"
   },
   {
+    "revision": "a8204bcc1b04a258deffa0aa258fc635",
+    "url": "/monitor/static/media/ui-access-control.a8204bcc.png"
+  },
+  {
+    "revision": "891947316b0d18fbb5ab03419b16a95c",
+    "url": "/monitor/static/media/ui-data-col.89194731.png"
+  },
+  {
+    "revision": "91cc7a05b5fc024c19a6eac5c233c5e5",
+    "url": "/monitor/static/media/ui-doc-man.91cc7a05.png"
+  },
+  {
     "revision": "1872d4d475cb2be7e7896ee471c1edd5",
     "url": "/monitor/static/media/ui-iot-monitoring.1872d4d4.png"
+  },
+  {
+    "revision": "21821b90849d240c216798ec6e1139bd",
+    "url": "/monitor/static/media/ui-iot-monitoring2.21821b90.png"
   },
   {
     "revision": "b9cf857faf911ee572375c457cead4a8",

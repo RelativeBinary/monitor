@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/monitor/static/css/main.bc747eaa.chunk.css",
-    "main.js": "/monitor/static/js/main.b45290b1.chunk.js",
-    "main.js.map": "/monitor/static/js/main.b45290b1.chunk.js.map",
+    "main.js": "/monitor/static/js/main.93e2d203.chunk.js",
+    "main.js.map": "/monitor/static/js/main.93e2d203.chunk.js.map",
     "runtime-main.js": "/monitor/static/js/runtime-main.ae3f48d2.js",
     "runtime-main.js.map": "/monitor/static/js/runtime-main.ae3f48d2.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/monitor/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.5ea2556e.chunk.js": "/monitor/static/js/2.5ea2556e.chunk.js",
-    "static/js/2.5ea2556e.chunk.js.map": "/monitor/static/js/2.5ea2556e.chunk.js.map",
+    "static/js/2.216c4c4b.chunk.js": "/monitor/static/js/2.216c4c4b.chunk.js",
+    "static/js/2.216c4c4b.chunk.js.map": "/monitor/static/js/2.216c4c4b.chunk.js.map",
     "index.html": "/monitor/index.html",
-    "precache-manifest.c83dd5bfd16991109801c78fa2b4bce2.js": "/monitor/precache-manifest.c83dd5bfd16991109801c78fa2b4bce2.js",
+    "precache-manifest.889d6b68875f22c37e6ac1c514f4528b.js": "/monitor/precache-manifest.889d6b68875f22c37e6ac1c514f4528b.js",
     "service-worker.js": "/monitor/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/monitor/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.bc747eaa.chunk.css.map": "/monitor/static/css/main.bc747eaa.chunk.css.map",
-    "static/js/2.5ea2556e.chunk.js.LICENSE.txt": "/monitor/static/js/2.5ea2556e.chunk.js.LICENSE.txt",
+    "static/js/2.216c4c4b.chunk.js.LICENSE.txt": "/monitor/static/js/2.216c4c4b.chunk.js.LICENSE.txt",
     "static/media/chris-2.png": "/monitor/static/media/chris-2.657bac3a.png",
     "static/media/datagrip.png": "/monitor/static/media/datagrip.5de14ff1.png",
     "static/media/github.png": "/monitor/static/media/github.5a50d10f.png",
@@ -25,14 +25,18 @@
     "static/media/pat.png": "/monitor/static/media/pat.c0c3ab65.png",
     "static/media/pycharm.png": "/monitor/static/media/pycharm.a942c6ea.png",
     "static/media/raspberrypi.png": "/monitor/static/media/raspberrypi.6a79cca5.png",
+    "static/media/ui-access-control.png": "/monitor/static/media/ui-access-control.a8204bcc.png",
+    "static/media/ui-data-col.png": "/monitor/static/media/ui-data-col.89194731.png",
+    "static/media/ui-doc-man.png": "/monitor/static/media/ui-doc-man.91cc7a05.png",
     "static/media/ui-iot-monitoring.png": "/monitor/static/media/ui-iot-monitoring.1872d4d4.png",
+    "static/media/ui-iot-monitoring2.png": "/monitor/static/media/ui-iot-monitoring2.21821b90.png",
     "static/media/webstorm.png": "/monitor/static/media/webstorm.b9cf857f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae3f48d2.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.5ea2556e.chunk.js",
+    "static/js/2.216c4c4b.chunk.js",
     "static/css/main.bc747eaa.chunk.css",
-    "static/js/main.b45290b1.chunk.js"
+    "static/js/main.93e2d203.chunk.js"
   ]
 }
