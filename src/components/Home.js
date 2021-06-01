@@ -7,18 +7,33 @@ import Col from 'react-bootstrap/Col';
 import Carousel from 'react-material-ui-carousel';
 import Item from './Item';
 let items = [
-    {
-        name: "Multi-platform", 
-        description: "Support for mobile and desktop platforms",
-        img: <img style={{maxHeight: "500px"}} src={require('../images/fuckingImage.jpg')} alt='iphone-img' />
-    },
-    {
-        name: "Random Name #2",
-        description: "Hello World!"
-    }
+  {
+    name: "Multi-platform", 
+    description: "Support for mobile and desktop platforms",
+    img: <img style={{maxHeight: "500px"}} src={require('../images/devices.jpg')} alt='devices-img' />
+  },
+  {
+    name: "Equipment Monitoring",
+    description: "Better Off This Way (You want it you got it)",
+    img: <img style={{maxHeight: "500px"}} src={require('../images/equipment.png')} alt='equipment-img' />
+  },
+  {
+    name: "Statistical Data Aggregation",
+    description: "View which building has a breakdown, monthly breakdowns and breakdowns per building",
+    img: <img style={{maxHeight: "500px"}} src={require('../images/dashboard.png')} alt='dashboard-img' />
+  },
+  {
+    name: "Job Management",
+    description: "Easily manage jobs and view job details",
+    img: <img style={{maxHeight: "500px"}} src={require('../images/jobs.png')} alt='job-img' />
+  },
+  {
+    name: "Organise Your Team",
+    description: "Fine tune member access with role based security.",
+    img: <img style={{maxHeight: "500px"}} src={require('../images/roles.png')} alt='roles-img' />
+  } 
 ]
 export class Home extends Component {
-
   render() {
     return (
       <div>
@@ -32,15 +47,15 @@ export class Home extends Component {
                 <Row className="d-flex justify-content-around">
                   <Col className="col-sm-12 col-md-12 col-lg-4 mt-5 pr-2">
                     <h4>Organisational Management</h4>
-                    <div>map your lift organisation, departments, jobs and lift equipment all in the one application</div>
+                    <div>Map your lift organisation, departments, jobs and lift equipment all in the one application</div>
                   </Col>
                   <Col className="col-sm-12 col-md-12 col-lg-4 mt-5 pr-2">
                     <h4>Internet of Things</h4>
-                    <div>bring your equipment to you, with IoT devices lift equipment can easily be monitored remotely with notifications being provided to the right people when equipment breaks down.</div>
+                    <div>Bring your equipment to you, with IoT devices lift equipment can easily be monitored remotely with notifications being provided to the right people when equipment breaks down.</div>
                   </Col>
                   <Col className="col-sm-12 col-md-12 col-lg-4 mt-5 pr-2">
                     <h4>Data Aggregation</h4>
-                    <div>get insights into how often breakdowns are occurring and how many breakdowns are recorded for each building to better make operational decisions. 
+                    <div>Get insights into how often breakdowns are occurring and how many breakdowns are recorded for each building to better make operational decisions. 
                     </div>
                   </Col>
                 </Row>
@@ -62,32 +77,61 @@ export class Home extends Component {
               <Row>
                 <div>
                   Tradespersons and corporate staff in the lift industry will be able to manage jobs and locate job sites, manage organisational structures and track equipment statuses and operations remotely. Monitor is aimed at those who in the lift industry that want to increase operational efficiency by leveraging software management tools and IoT technology 
-
-
                 </div>
               </Row>
             </Container>
             <div className="d-flex justify-content-center">
-             
               <Col className="col-sm-12 col-md-12 col-lg-4">
                 <div className='text-dark bg-light card-style'>
-                  <h4>Industry Experience</h4>
+                  <h4>Tradespersons</h4>
                   <div>
-                    Our team members have worked in the industry in a variety of technical and non-technical roles, cultivating in the development of the Monitor Application
+                    Tradespersons in the lift industry will be able to easily locate building sites and view vital job information. Notifications for breakdowns will be supportive in faster information sharing to react faster and know more when lifts breakdown. Easily control and view equipment and IoT devices remotely.
                   </div>
                 </div>
               </Col>
               <Col className="col-sm-12 col-md-12 col-lg-4">
                 <div className='text-dark bg-light card-style'>
-                  <h4>Industry Experience</h4>
+                  <h4>Corporate workers</h4>
                   <div>
-                    Our team members have worked in the industry in a variety of technical and non-technical roles, cultivating in the development of the Monitor Application
+                    Project managers, technical staff, and management staff in the lift industry will be able to elevate their business operations with Monitor's organisational management tools, remote equipment tracking and control tools. Operational statistics will provide insights to improve data driven business decisions.
                   </div>
                 </div>
               </Col>
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L40,170.7C80,181,160,203,240,224C320,245,400,267,480,261.3C560,256,640,224,720,192C800,160,880,128,960,138.7C1040,149,1120,203,1200,218.7C1280,235,1360,213,1400,202.7L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <Container style={{minHeight: "500px"}} className="pt-5">
+          <div className="mt-5">
+          <Container className='d-flex justify-content-center'>
+              <h1>How does it work? Check it out!</h1>
+            </Container>
+            <Carousel className=""  style={{minHeight: "200px"}}>
+              {
+                  items.map( (item, i) => <Item key={i} item={item} /> )
+              }
+            </Carousel>
+          </div>
+        </Container>
+        <div className='section blue-navy text-light'>
+          <Container>
+            <div className='row'>
+              <div className='col-lg-12'>
+                <h1>Contact Us</h1>
+                  <h5>Address:</h5>
+                  <ul>
+                    <li>Northfields Ave, Wollongong NSW 2522</li>
+                  </ul>
+                  <h5>Email:</h5>
+                  <ul>
+                    <li>mrb242@uowmail.edu.au</li>
+                  </ul>
+              </div>
+              {/*<div className='col-lg-6 phone-image-container'>
+                <img src={require('../images/iphone-x.png')} alt='iphone-img' />
+              </div>*/}
+            </div>
+          </Container>
+        </div>
         {/*About Us*/}
         {/* <div className='section dark-blue text-light'> */}
           {/* <Container>
@@ -130,18 +174,7 @@ export class Home extends Component {
           </ul>
           <NavLink to='/access-control'><button className='btn btn-primary mb-2 custom-btn'>More Info</button></NavLink>
         </Container> */}
-        <Container style={{minHeight: "500px"}} className="pt-5">
-          <div className="mt-5">
-          <Container className='d-flex justify-content-center'>
-              <h1>How does it work? Check it out!</h1>
-            </Container>
-            <Carousel className=""  style={{minHeight: "200px"}}>
-              {
-                  items.map( (item, i) => <Item key={i} item={item} /> )
-              }
-            </Carousel>
-          </div>
-        </Container>
+        
         {/*What monitor aims to address*/}
         {/* <div className='section light-blue text-light'>
           <Container>
@@ -300,27 +333,6 @@ export class Home extends Component {
           </Container>
         </div> */}
         {/*contact us*/}
-        <div className='section blue-navy text-light'>
-          <Container>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <h1>Contact Us</h1>
-                  <h5>Address:</h5>
-                  <ul>
-                    <li>Northfields Ave, Wollongong NSW 2522</li>
-                  </ul>
-                  
-                  <h5>Email:</h5>
-                  <ul>
-                    <li>mrb242@uowmail.edu.au</li>
-                  </ul>
-              </div>
-              {/*<div className='col-lg-6 phone-image-container'>
-                <img src={require('../images/iphone-x.png')} alt='iphone-img' />
-              </div>*/}
-            </div>
-          </Container>
-        </div>
       </div>
     );
   }

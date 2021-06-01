@@ -23,7 +23,7 @@ export class Navigation extends Component {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-4'>
               {/*Solutions*/}
-              <NavDropdown title='Solutions' id='solutions-nav'>
+              {/* <NavDropdown title='Solutions' id='solutions-nav'>
                 <NavDropdown.Item>
                   <NavLink to='/iot'>IoT</NavLink>
                 </NavDropdown.Item>
@@ -33,45 +33,45 @@ export class Navigation extends Component {
                     Data Collection
                   </NavLink>
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item>
+                <NavDropdown.Divider /> */}
+                {/* <NavDropdown.Item>
                   <NavLink to='/document-management'>
                     Document Management
                   </NavLink>
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item>
+                <NavDropdown.Divider /> */}
+                {/* <NavDropdown.Item>
                   <NavLink to='/access-control'>
                     Access Control
                   </NavLink>
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item>
+                <NavDropdown.Divider /> */}
+                {/* <NavDropdown.Item>
                   <NavLink to='/future-goals'>Future Goals</NavLink>
-                </NavDropdown.Item>
-              </NavDropdown>
+                </NavDropdown.Item> */}
+              {/* </NavDropdown> */}
               {/*Resources*/}
-              <NavDropdown title='Resources' id='solutions-nav'>
-                <NavDropdown.Item><NavLink to='/problem'>Problem Description</NavLink></NavDropdown.Item>
-              </NavDropdown>
+              {/* <NavDropdown title='Resources' id='solutions-nav'> */}
+                {/* <NavDropdown.Item> */}
+                  <NavLink to='/problem' className="px-2 text-dark">Problem Description</NavLink>
+                  {/* </NavDropdown.Item> */}
+                {/* <NavDropdown.Item><NavLink to='/solutions'>Solutions</NavLink></NavDropdown.Item> */}
+              {/* </NavDropdown> */}
               {/*About*/}
-              <NavDropdown title='About'>
-                <NavDropdown.Item>
-                  <NavLink to='/team'>Meet The Team</NavLink>
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item>
+              {/* <NavDropdown title='About'> */}
+                {/* <NavDropdown.Item> */}
+                  <NavLink to='/team'  className=" px-2 text-dark">Meet The Team</NavLink>
+                {/* </NavDropdown.Item> */}
+                {/* <NavDropdown.Divider /> */}
+                {/* <NavDropdown.Item>
                   <NavLink to='/technology'>
                     Technology Stack
                   </NavLink>
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item><NavLink to='/design-methodology'>
-                    Design Methodology
-                  </NavLink></NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item><NavLink to='/about-us'>About Us</NavLink></NavDropdown.Item>
-              </NavDropdown>
+                <NavDropdown.Divider /> */}
+              
+                {/* <NavDropdown.Item><NavLink to='/about-us'>About Us</NavLink></NavDropdown.Item> */}
+              {/* </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
         </div>

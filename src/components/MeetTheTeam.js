@@ -4,9 +4,9 @@ import Container from 'react-bootstrap/Container';
 export class MeetTheTeam extends Component {
   render() {
     return (
-      <div className='section'>
+      <div className='section'  style={{minHeight: "200px", backgroundColor: "#0099ff"}}>
           <Container>
-            <h1>Meet The Team</h1>
+            <h1  style={{color: 'white'}}>Meet The Team</h1>
             <hr className='pb-3' />
             {/*Team Member Card - Matt*/}
             <div class='p-4 wrap'>

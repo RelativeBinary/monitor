@@ -39,16 +39,16 @@ function App() {
           component={DataCollection}
           exact
         />
-        <Route
+        {/* <Route
           path='/document-management'
           component={DocumentManagement}
           exact
-        />
+        /> */}
         <Route path='/access-control' component={AccessControl} exact />
-        <Route path='/future-goals' component={FutureGoals} exact />
+        {/* <Route path='/future-goals' component={FutureGoals} exact /> */}
         <Route path='/about-us' component={AboutUs} exact />
-        <Route path='/design-methodology' component={DesignMethodology} exact />
-        <Route path='/technology' component={Technology} exact />
+        <Route path='/solutions' component={DesignMethodology} exact />
+        {/* <Route path='/technology' component={Technology} exact /> */}
         <Route path='/team' component={MeetTheTeam} exact/>
       </Switch>
     </BrowserRouter>
